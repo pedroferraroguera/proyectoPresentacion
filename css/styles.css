@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+body {
+    font-family: "Poppins", sans-serif; /*cambio el tipo de letra */
+    background-color: #ffffff; /*cambio el color de fondo */
+    color: black; /*cambio el color de la letra*/
+    background: linear-gradient(90deg, rgb(121, 123, 241),pink,orange);
+  }
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+  }
+
+  h3{
+    text-align: center;
+  }
+
+
+  p {
+    text-align: center;
+    font-size: 20px;
+    padding: 20px;
+} 
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+
+.foto {
+    display: flex;
+    flex-flow: wrap;
+    color: white;
+  }
+
+.foto div {
+    width: 40%;
+    margin: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: black;
+  }
+
+.foto div img {
+    width: 100%;
+  }
+
+.quiensoy{
+    margin: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.dedondevengo {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.dedondevengo div {
+    width: 40%;
+    margin: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+.dedondevengo div img{
+    width: 100%;
+}
+
+.hobbies {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.hobbies div {
+    width: 40%;
+    margin: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.hobbies div img{
+    width: 100%;
+}
+
+.laboral {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.laboral div {
+    width: 40%;
+    margin: 5%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: white;
+    
+}
+
+.laboral div img{
+    width: 100%;
+}
+
+.redes {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.redes div{
+  margin: auto;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.insta {
+    margin: 5px;
+}
+
+.link {
+    color: #ffffff;
+}
+
+footer {
+    background-color: black;
+    color: white;
+
+}
